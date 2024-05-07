@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactu</title>
+    <link rel="stylesheet" href="concate.css">
+</head>
+<body>
+    
+    <section class="contact-form">
+        <a style="text-decoration: none; font-size: 150%; border: 1px solid black;width: 800px; color:#a855f7;;text-align: center; font-family: bolt; background: color #a855f7;;" 
+         href="index.html">Contact Me</a>
+        <h5> Here my gmail:bijigasupriya@gmail.com</h5>
+      <form  action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="b46393f9-b8d3-4a33-9a65-737e4247799b">
+        <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Web Design Mastery | Responsive Portfolio</title>
+    <style>
+        /* Additional CSS to fix the layout issue */
+        .action__btns {
+            margin-top: 20px; /* Adjust this value as needed */
+        }
+        .hire__me {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            text-decoration: none; /* Ensure the button doesn't inherit underline from parent styles */
+            display: inline-block; /* Ensure the button behaves like an inline element */
+        }
+        .hire__me:hover {
+            background-color: #0056b3;
+        }
+        .social-icons a {
+            color: #000; /* Adjust the color of the icons */
+            font-size: 24px; /* Adjust the size of the icons */
+            margin-right: 10px; /* Adjust the space between icons */
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav__content">
+            <div class="logo"><a href="#">Supriya</a></div>
+            <label for="check" class="checkbox">
+                <i class="ri-menu-line"></i>
+            </label>
+            <input type="checkbox" name="check" id="check">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="concat.html">Contact</a></li>
+            </ul>
+            <!-- Add social icons here -->
+            
+        </div>
+    </nav>
+    <section class="section">
+        <div class="section__container">
+            <div class="content">
+                <p class="subtitle">HELLO</p>
+                <h1 class="title">
+                    I'm <span>Supriya<br />a</span> Web Developer
+                </h1>
+                <p class="description">
+                    Welcome to my web developer portfolio! I'm Supriya, a skilled and
+                    creative web developer with a passion for creating beautiful,
+                    responsive, and user-friendly websites. I've worked on a variety of
+                    web projects, ranging from personal blogs to e-commerce platforms.
+                </p>
+                <div class="social-icons">
+                  <a href="https://github.com/Supriya3123"><i class="ri-github-fill"style="color:#a855f7"></i></a> <!-- GitHub icon -->
+                  <a href="https://www.linkedin.com/in/bijiga-supriya"><i class="ri-linkedin-fill"style="color:#a855f7"></i></a> <!-- LinkedIn icon -->
+              </div>
+                <div class="action__btns">
+                    <a href="Bijiga-Supriya-FlowCV-Resume-20240505.pdf" class="hire__me" style="background-color: #a855f7;">Download Resume</a>
+                </div>
+            </div>
+            <div class="image">
+                <img src="pass photo.jpg" alt="profile">
+            </div>
+        </div>
+    </section>
+</body>
+</html>
